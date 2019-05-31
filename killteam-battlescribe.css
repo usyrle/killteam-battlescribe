@@ -42,19 +42,17 @@
                 }
 
                 div.battlescribe li.rootselection {
-                    margin: 0px 0px 16px 0px;
+                    margin: 0 0 16px 0;
                 }
 
                 div.battlescribe h1 {
                     width: 95%;
                 }
-
             }
 
             @media only screen {
                 div.battlescribe li.force {
-                    margin-right: auto;
-                    margin-left: auto;
+                    margin: auto;
                 }
 
                 div.battlescribe {
@@ -88,24 +86,19 @@
             }
 
             li.force>p.rule-names {
-                margin-left: 10px;
-                margin-top: 20px;
-                margin-bottom: 20px;
+                margin: 20px auto 20 10;
             }
 
             body.battlescribe {
-                margin: 0px;
-                padding: 0px;
-                border-width: 0px;
+                margin: 0;
+                padding: 0;
+                border-width: 0;
             }
 
             div.battlescribe {
-                margin-top: 0px;
-                margin-bottom: 0px;
-                margin-left: auto;
-                margin-right: auto;
+                margin: 0 auto;
                 padding: 8px;
-                border-width: 0px;
+                border-width: 0;
                 font-family: 'Minion Pro', 'Crimson Text', Palatino, serif;
                 color: #444444;
                 text-align: left;
@@ -115,35 +108,29 @@
             div.battlescribe h2,
             div.battlescribe h3,
             div.battlescribe h4 {
-                margin: 0px;
-                padding: 0px;
-                border-width: 0px;
+                margin: 0;
+                padding: 0;
+                border-width: 0;
             }
 
             div.battlescribe h1 {
-                margin-top: 8px;
-                margin-bottom: 20px;
+                margin: 8px auto 20;
                 font-family: Gunplay, 'Black Ops One';
                 font-size: 24px;
                 color: #E3510E;
                 text-align: center;
                 text-transform: uppercase;
                 border-bottom: 1px #E3510E solid;
-                margin-left: auto;
-                margin-right: auto;
             }
 
             div.battlescribe h2 {
+                margin: auto auto 20px;
                 font-family: Gunplay, 'Black Ops One';
                 font-size: 20px;
                 color: #E3510E;
                 text-transform: uppercase;
                 text-align: center;
                 width: 90%;
-                margin-left: auto;
-                margin-right: auto;
-                margin-bottom: 20px;
-
             }
 
             div.battlescribe h3 {
@@ -161,12 +148,10 @@
 
             div.battlescribe h1+p,
             .battlescribe>p:first-of-type {
+                margin: auto auto 20px;
                 width: 50%;
                 max-width: 400px;
                 min-width: 200px;
-                margin-right: auto;
-                margin-left: auto;
-                margin-bottom: 20px;
                 font-style: italic;
                 border-width: 1px;
                 border-style: solid;
@@ -183,32 +168,30 @@
 
             div.summary h2 {
                 margin-top: 16px;
-                padding: 0px;
-                border-width: 0px;
+                padding: 0;
+                border-width: 0;
                 font-family: Gunplay, 'Black Ops One';
                 font-size: 16px;
                 text-align: center;
             }
 
             div.battlescribe div.summary {
-                margin-left: 0px;
+                margin: auto;
                 page-break-before: avoid;
                 width: 50%;
                 max-width: 400px;
-                margin-left: auto;
-                margin-right: auto;
             }
 
             div.battlescribe div.summary p {
                 padding: 10px;
                 border: 1px #E3510E solid;
-                margin-left: 0px;
+                margin-left: 0;
             }
 
             div.battlescribe ul {
-                margin: 0px 0px -5px 0px;
-                padding: 0px;
-                border-width: 0px;
+                margin: 0 0 -5px 0;
+                padding: 0;
+                border-width: 0;
 
                 list-style-image: none;
                 list-style-position: outside;
@@ -216,21 +199,21 @@
             }
 
             div.battlescribe li {
-                margin: 8px 0px 0px 0px;
-                padding: 0px;
-                border-width: 0px;
+                margin: 8px 0 0 0;
+                padding: 0;
+                border-width: 0;
             }
 
             div.battlescribe li.force {
                 margin-bottom: 16px;
-                padding: 0px;
-                border-width: 0px;
+                padding: 0;
+                border-width: 0;
             }
 
             div.battlescribe li.category {
-                margin: 0px 0px 16px 0px;
-                padding: 0px;
-                border-width: 0px;
+                margin: 0 0 16px 0;
+                padding: 0;
+                border-width: 0;
                 break-before: page;
             }
 
@@ -243,16 +226,14 @@
             }
 
             div.battlescribe p {
-                margin: 4px 0px 0px 16px;
-                padding: 0px;
-                border-width: 0px;
+                margin: 4px 0 0 16;
+                padding: 0;
+                border-width: 0;
             }
 
             div.battlescribe table {
-                margin-bottom: 10px;
-                margin-right: auto;
-                margin-left: auto;
-                padding: 0px;
+                margin: auto auto 10px;
+                padding: 0;
                 border-collapse: collapse;
                 width: 98%;
                 color: #444444;
@@ -263,7 +244,6 @@
                 border-width: 1px;
                 border-style: solid;
                 border-color: #E3510E;
-
             }
 
             tr:nth-child(even) {
@@ -276,8 +256,8 @@
 
             div.battlescribe th {
                 padding: 4px;
-                margin: 0px;
-                border-width: 0px;
+                margin: 0;
+                border-width: 0;
                 color: black;
                 font-weight: bold;
                 text-align: left;
@@ -286,8 +266,8 @@
 
             div.battlescribe td {
                 padding: 4px;
-                margin: 0px;
-                border-width: 0px;
+                margin: 0;
+                border-width: 0;
                 text-align: left;
             }
 
