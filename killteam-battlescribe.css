@@ -1,5 +1,6 @@
         <style>
             @import url('https://fonts.googleapis.com/css?family=Black+Ops+One');
+            @import url('https://fonts.googleapis.com/css?family=Crimson+Text&display=swap');
 
             @media only screen and (min-width: 480px) {
                 div.battlescribe li.force {
@@ -105,7 +106,7 @@
                 margin-right: auto;
                 padding: 8px;
                 border-width: 0px;
-                font-family: 'Minion Pro', 'Book Antiqua', Palatino, serif;
+                font-family: 'Minion Pro', 'Crimson Text', Palatino, serif;
                 color: #444444;
                 text-align: left;
             }
