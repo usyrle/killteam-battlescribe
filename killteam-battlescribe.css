@@ -92,13 +92,11 @@
             body.battlescribe {
                 margin: 0;
                 padding: 0;
-                border-width: 0;
             }
 
             div.battlescribe {
                 margin: 0 auto;
                 padding: 8px;
-                border-width: 0;
                 font-family: 'Minion Pro', 'Crimson Text', Palatino, serif;
                 color: #444444;
                 text-align: left;
@@ -110,7 +108,6 @@
             div.battlescribe h4 {
                 margin: 0;
                 padding: 0;
-                border-width: 0;
             }
 
             div.battlescribe h1 {
@@ -153,10 +150,8 @@
                 max-width: 400px;
                 min-width: 200px;
                 font-style: italic;
-                border-width: 1px;
-                border-style: solid;
+                border: 1px #E3510E solid;
                 padding: 10px;
-                border-color: #E3510E;
             }
 
             div.battlescribe h1+p::before,
@@ -169,7 +164,6 @@
             div.summary h2 {
                 margin-top: 16px;
                 padding: 0;
-                border-width: 0;
                 font-family: Gunplay, 'Black Ops One';
                 font-size: 16px;
                 text-align: center;
@@ -191,8 +185,6 @@
             div.battlescribe ul {
                 margin: 0 0 -5px 0;
                 padding: 0;
-                border-width: 0;
-
                 list-style-image: none;
                 list-style-position: outside;
                 list-style-type: none;
@@ -201,34 +193,28 @@
             div.battlescribe li {
                 margin: 8px 0 0 0;
                 padding: 0;
-                border-width: 0;
             }
 
             div.battlescribe li.force {
                 margin-bottom: 16px;
                 padding: 0;
-                border-width: 0;
             }
 
             div.battlescribe li.category {
                 margin: 0 0 16px 0;
                 padding: 0;
-                border-width: 0;
                 break-before: page;
             }
 
             div.battlescribe li.rootselection {
                 padding: 8px;
-                border-width: 1px;
-                border-style: solid;
-                border-color: #E3510E;
+                border: 1px #E3510E solid;
                 page-break-inside: avoid;
             }
 
             div.battlescribe p {
                 margin: 4px 0 0 16;
                 padding: 0;
-                border-width: 0;
             }
 
             div.battlescribe table {
@@ -241,9 +227,7 @@
             }
 
             div.battlescribe tr {
-                border-width: 1px;
-                border-style: solid;
-                border-color: #E3510E;
+                border: 1px #E3510E solid;
             }
 
             tr:nth-child(even) {
@@ -257,7 +241,6 @@
             div.battlescribe th {
                 padding: 4px;
                 margin: 0;
-                border-width: 0;
                 color: black;
                 font-weight: bold;
                 text-align: left;
@@ -267,7 +250,6 @@
             div.battlescribe td {
                 padding: 4px;
                 margin: 0;
-                border-width: 0;
                 text-align: left;
             }
 
@@ -289,10 +271,7 @@
             }
 
             div.battlescribe table.statistics th {
-                border-width: 1px;
-                border-style: solid;
-                border-color: #BBBBBB;
-
+                border: 1px #BBBBBB solid;
                 font-size: 13px;
                 text-align: right;
             }
@@ -302,10 +281,7 @@
             }
 
             div.battlescribe table.statistics td {
-                border-width: 4px;
-                border-style: solid;
-                border-color: #BBBBBB;
-
+                border: 4px #BBBBBB solid;
                 text-align: right;
             }
 
